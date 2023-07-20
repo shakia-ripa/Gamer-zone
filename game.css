@@ -99,7 +99,7 @@ a {
     background-position: center;
     min-height: 100%;
     min-width: 50%; */
-    padding-left: 80px;
+    
 }
 
 .goat-subtitle {
@@ -172,12 +172,16 @@ a {
 }
 
 .goat-right {
+    width: 45%;
     text-align: center;
+    position: relative;
 }
 
 .goat-right img {
     width: 100%;
-    
+    position: absolute;
+    top: -148px;
+    left: 50px;
 }
 
 /* gamer section */
@@ -303,7 +307,7 @@ a {
     }
 
     .left .title,
-    .title{
+    .gamer .title{
         font-size: 2.3rem;
     }
 
@@ -315,25 +319,24 @@ a {
 
     nav .right ul,
     nav .right ul button,
-    .para-2 {
+    .gamer .para-2 {
         font-size: 1rem;
     }
-
     .goat-section{
+        background: none;
+    }
+    .goat-container{
         flex-direction: column-reverse;
         gap: 24px;
-        background-image: none;
         padding-left: 0px;
         margin-bottom: 10px;
     }
-
     .goat-left {
-        width: 85%;
+        width: 90%;
         background-image: url("./images/group14.png");
         background-repeat: no-repeat;
-        background-size: contain;
-        margin-left: 30px;
-        padding-left: 50px;
+        background-size: 100% 100%;
+        padding-left: 30px;
         margin-bottom: 50px;
     }
 
@@ -357,8 +360,8 @@ a {
     }
 
     .goat-left .text,
-    .description,
-    .para-1,
+    .gamer .description,
+    .gamer .para-1,
     .online-game-container .description{
         font-size: 0.8rem;
     }
@@ -373,11 +376,16 @@ a {
         height: 23px;
         padding: 2.5px 5px;
     }
-
-    .goat-right img {
-        width: 70%;
+    .goat-right {
+        width: 90%;
+        position: static;
     }
-
+    .goat-right img {
+        width: 100%;
+        position: static;
+        top: 0px;
+        left: 0px;
+    }
     /* gamer section */
     .gamer-section{
         background: none;
@@ -421,7 +429,7 @@ a {
         flex-direction: column;
         gap: 40px;
     }
-    .goat-section{
+    .goat-container{
         flex-direction: column-reverse;
         gap: 0px;
         background-image: none;
