@@ -77,17 +77,28 @@ a {
 /* banner section */
 .goat-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/group14.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    gap: 70px;
+}
+.goat-container{
+    width: 80%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 70px;
 }
 
 .goat-left {
-    background-image: url("./images/group14.png");
+    /* background-image: url("./images/group14.png");
     background-size: contain;
     background-position: center;
     min-height: 100%;
-    min-width: 50%;
+    min-width: 50%; */
     padding-left: 80px;
 }
 
