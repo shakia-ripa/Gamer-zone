@@ -439,6 +439,9 @@ a {
         padding-left: 0px;
         margin-bottom: 10px;
     }
+    .goat-subtitle{
+        padding-top: 50px;
+    }
     .goat-left {
         width: 90%;
         background-image: url("./images/group14.png");
