@@ -429,19 +429,35 @@ a {
         flex-direction: column;
         gap: 40px;
     }
+    /* banner section */
+    .goat-section{
+        background: none;
+    }
     .goat-container{
         flex-direction: column-reverse;
-        gap: 0px;
-        background-image: none;
+        gap: 24px;
         padding-left: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
-    .goat-left{
-        min-width: 85%;
+    .goat-left {
+        width: 90%;
+        background-image: url("./images/group14.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-left: 30px;
+        margin-bottom: 50px;
+    }
+    .goat-right {
+        width: 90%;
+        position: static;
     }
     .goat-right img {
-        width: 70%;
+        width: 100%;
+        position: static;
+        top: 0px;
+        left: 0px;
     }
+    /* gamer section */
     .gamer {
         width: 100%;
         flex-direction: column;
