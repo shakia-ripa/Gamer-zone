@@ -5,6 +5,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary-color {
+    color: #FF42A5;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -86,7 +90,8 @@ a {
     min-height: 100%;
     gap: 70px;
 }
-.goat-container{
+
+.goat-container {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -99,7 +104,7 @@ a {
     background-position: center;
     min-height: 100%;
     min-width: 50%; */
-    
+
 }
 
 .goat-subtitle {
@@ -120,7 +125,7 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.goat-left .text{
+.goat-left .text {
     color: #534C64;
     text-align: center;
     font-size: 1rem;
@@ -221,7 +226,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
     padding-top: 90px;
 }
 
@@ -231,44 +236,52 @@ a {
     font-weight: 400;
     margin-top: 16px;
 }
-.btn-know{
+
+.btn-know {
     width: 140px;
     height: 45px;
     margin-top: 24px;
     margin-bottom: 20px;
 }
-.para-1{
+
+.para-1 {
     color: #534C64;
     font-size: 1.1rem;
-    font-weight: 500;   
+    font-weight: 500;
     margin-bottom: 15px;
 }
+
 .para-2 {
     color: #534C64;
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 70px;
 }
+
 /* online game section */
-.online-games-section{
+.online-games-section {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.online-game-container{
+
+.online-game-container {
     width: 80%;
     margin-bottom: 90px;
 }
-.online-game-container .heading{
+
+.online-game-container .heading {
     text-align: center;
 }
-.online-game-container .black-title{
+
+.online-game-container .black-title {
     color: #0B0223;
     font-size: 2.7rem;
     font-weight: 900;
 }
-.online-game-container .title{
+
+.online-game-container .title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -276,29 +289,92 @@ a {
     font-size: 2.7rem;
     font-weight: 900;
 }
-.online-game-container .description{
+
+.online-game-container .description {
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 16px;
     margin-bottom: 40px;
 }
-.games{
+
+.games {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
-.games .card img{
+
+.games .card img {
     width: 100%;
 }
-.card .text{
+
+.card .text {
     color: #534C64;
     font-size: 0.9rem;
     font-weight: 500;
     margin-top: 16px;
 }
 
+/* play instantly section */
 
+.play-instantly {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.play-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.play-left {
+    width: 40%;
+    text-align: right;
+}
+
+.play-left .title {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.play-left .description {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.play-right {
+    width: 60%;
+    position: relative;
+    text-align: right;
+}
+
+.play-right .img-1 {
+    width: 100%;
+}
+
+.play-right .img-1 img {
+    width: 80%;
+}
+
+.play-right .img-2 {
+    width: 60%;
+    position: absolute;
+    left: -90px;
+    top: 200px;
+}
+
+.play-right .img-2 img {
+    width: 70%;
+
+}
 
 
 /* mobile view */
@@ -308,7 +384,7 @@ a {
     }
 
     .left .title,
-    .gamer .title{
+    .gamer .title {
         font-size: 2.3rem;
     }
 
@@ -323,15 +399,18 @@ a {
     .gamer .para-2 {
         font-size: 1rem;
     }
-    .goat-section{
+
+    .goat-section {
         background: none;
     }
-    .goat-container{
+
+    .goat-container {
         flex-direction: column-reverse;
         gap: 24px;
         padding-left: 0px;
         margin-bottom: 10px;
     }
+
     .goat-left {
         width: 90%;
         background-image: url("./images/group14.png");
@@ -363,7 +442,7 @@ a {
     .goat-left .text,
     .gamer .description,
     .gamer .para-1,
-    .online-game-container .description{
+    .online-game-container .description {
         font-size: 0.8rem;
     }
 
@@ -377,52 +456,96 @@ a {
         height: 23px;
         padding: 2.5px 5px;
     }
+
     .goat-right {
         width: 90%;
         position: static;
     }
+
     .goat-right img {
         width: 100%;
         position: static;
         top: 0px;
         left: 0px;
     }
+
     /* gamer section */
-    .gamer-section{
+    .gamer-section {
         background: none;
         margin-bottom: 85px;
     }
+
     .gamer {
         width: 100%;
         flex-direction: column;
         gap: 20px;
-        
+
     }
-    .gamer .title{
+
+    .gamer .title {
         padding-top: 0px;
     }
+
     .gamer-left {
         width: 80%;
     }
+
     .gamer-right {
         width: 65%;
         text-align: center;
     }
-    .btn-know{
+
+    .btn-know {
         width: 100px;
         height: 30px;
         margin-top: 24px;
         margin-bottom: 20px;
     }
+
     /* online games section */
-    .games{
-        display: grid;
+    .games {
         grid-template-columns: 1fr;
         gap: 24px;
     }
+
+    .online-game-container {
+        margin-bottom: 40px;
+    }
+
     .online-game-container .title,
-    .online-game-container .black-title{
+    .online-game-container .black-title {
         font-size: 1.5rem;
+    }
+
+    /* play instantly section */
+    .play-container {
+        width: 90%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-left {
+        width: 60%;
+        text-align: center;
+    }
+
+    .play-left .title {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .play-left .description {
+        font-size: 0.8rem;
+    }
+
+    .play-right {
+        width: 80%;
+    }
+    .play-right .img-2{
+        width: 65%;
+        position: absolute;
+        left: -60px;
+        top: 140px;
     }
 
 }
@@ -433,19 +556,23 @@ a {
         flex-direction: column;
         gap: 40px;
     }
+
     /* banner section */
-    .goat-section{
+    .goat-section {
         background: none;
     }
-    .goat-container{
+
+    .goat-container {
         flex-direction: column-reverse;
         gap: 24px;
         padding-left: 0px;
         margin-bottom: 10px;
     }
-    .goat-subtitle{
+
+    .goat-subtitle {
         padding-top: 50px;
     }
+
     .goat-left {
         width: 90%;
         background-image: url("./images/group14.png");
@@ -454,28 +581,72 @@ a {
         padding-left: 30px;
         margin-bottom: 50px;
     }
+
     .goat-right {
         width: 90%;
         position: static;
     }
+
     .goat-right img {
         width: 100%;
         position: static;
         top: 0px;
         left: 0px;
     }
+
     /* gamer section */
     .gamer {
         width: 100%;
         flex-direction: column;
         gap: 0px;
     }
-    .gamer .title{
+
+    .gamer .title {
         padding-top: 10px;
     }
+
     .gamer-right {
         width: 70%;
         text-align: center;
     }
+    /* online games section */
+    .games {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    /* play instantly section */
+    .play-instantly{
+        margin-bottom: 150px;
+    }
+    .play-container {
+        width: 90%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-left {
+        width: 45%;
+        text-align: center;
+    }
+
+    .play-left .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .play-left .description {
+        font-size: 1rem;
+    }
+
+    .play-right {
+        width: 80%;
+    }
+    .play-right .img-2{
+        width: 65%;
+        position: absolute;
+        left: -100px;
+        top: 260px;
+    }
+
 
 }
