@@ -376,6 +376,135 @@ a {
 
 }
 
+/* footer section */
+.footer {
+    width: 100%;
+    background-color: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.footer-container {
+    width: 60%;
+    color: #FFF;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.footer-container .title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.footer-container .title-g {
+    color: #FF42A5;
+}
+
+.features {
+    margin-bottom: 50px;
+}
+
+.features ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.features ul li {
+    list-style: none;
+}
+
+.features ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.social-media-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    width: 65%;
+}
+
+.social-media ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+}
+
+.social-media ul li {
+    list-style: none;
+}
+
+.social-media ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.terms-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 28px;
+}
+
+.terms {
+    width: 100%;
+}
+
+.terms ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.terms ul li {
+    list-style: none;
+}
+
+.terms ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.copyright-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.copyright {
+    width: 80%;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+}
 
 /* mobile view */
 @media screen and (max-width:576px) {
@@ -516,7 +645,8 @@ a {
     .online-game-container .black-title {
         font-size: 1.5rem;
     }
-    .card .text{
+
+    .card .text {
         font-size: 0.7rem;
     }
 
@@ -544,13 +674,47 @@ a {
     .play-right {
         width: 80%;
     }
-    .play-right .img-2{
+
+    .play-right .img-2 {
         width: 65%;
         position: absolute;
         left: -60px;
         top: 140px;
     }
 
+    /* footer section styles */
+    .footer-container {
+        width: 70%;
+        text-align: center;
+    }
+
+    .features ul {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+
+    .social-media ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .terms ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features ul li a,
+    .social-media ul li a,
+    .terms ul li a,
+    .copyright{
+        font-size: 0.7rem;
+    }
+    .social-media ul li a svg{
+        width: 80%;
+    }
+    .copyright {
+        width: 65%;
+        flex-direction: column;
+        gap: 0px;
+    }
 }
 
 /* Tablet view */
@@ -616,15 +780,18 @@ a {
         width: 70%;
         text-align: center;
     }
+
     /* online games section */
     .games {
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
+
     /* play instantly section */
-    .play-instantly{
+    .play-instantly {
         margin-bottom: 150px;
     }
+
     .play-container {
         width: 90%;
         flex-direction: column;
@@ -648,7 +815,8 @@ a {
     .play-right {
         width: 80%;
     }
-    .play-right .img-2{
+
+    .play-right .img-2 {
         width: 65%;
         position: absolute;
         left: -100px;
