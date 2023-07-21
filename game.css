@@ -940,6 +940,11 @@ a {
         left: -100px;
         top: 260px;
     }
+    /* games section */
+    .games-section{
+        margin-bottom: 70px;
+    }
+    /* footer section */
 
     .footer-container {
         width: 80%;
