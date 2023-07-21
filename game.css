@@ -220,8 +220,9 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 900;
+    padding-top: 90px;
 }
 
 .gamer .description {
@@ -397,6 +398,9 @@ a {
         gap: 20px;
         
     }
+    .gamer .title{
+        padding-top: 0px;
+    }
     .gamer-left {
         width: 80%;
     }
@@ -465,6 +469,9 @@ a {
         width: 100%;
         flex-direction: column;
         gap: 0px;
+    }
+    .gamer .title{
+        padding-top: 10px;
     }
     .gamer-right {
         width: 70%;
