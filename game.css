@@ -755,17 +755,17 @@ a {
     }
 
     .play-left {
-        width: 60%;
+        width: 50%;
         text-align: center;
     }
 
     .play-left .title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: 700;
     }
 
     .play-left .description {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .play-right {
