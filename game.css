@@ -590,7 +590,7 @@ a {
         width: 90%;
         position: static;
     }
-
+ 
     .goat-right img {
         width: 100%;
         position: static;
@@ -823,5 +823,15 @@ a {
         top: 260px;
     }
 
-
+    .footer-container {
+        width: 80%;
+    }
+    .copyright{
+        text-align: center;
+        flex-direction: column;
+    }
+    .social-media {
+        width: 100%;
+    }
+    
 }
