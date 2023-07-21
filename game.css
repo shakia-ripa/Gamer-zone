@@ -610,7 +610,7 @@ a {
 
     .left .title,
     .gamer .title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     nav,
@@ -734,13 +734,13 @@ a {
     }
 
     .online-game-container {
-        width: 70%;
+        width: 80%;
         margin-bottom: 40px;
     }
 
     .online-game-container .title,
     .online-game-container .black-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .card .text {
