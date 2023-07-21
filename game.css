@@ -789,7 +789,9 @@ a {
         font-weight: 400;
     
     }
-
+    .games-section{
+        margin-bottom: 70px;
+    }
 
     /* footer section styles */
     .footer-container {
