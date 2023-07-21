@@ -472,7 +472,7 @@ a {
     /* gamer section */
     .gamer-section {
         background: none;
-        margin-bottom: 85px;
+        margin-bottom: 20px;
     }
 
     .gamer {
@@ -515,6 +515,9 @@ a {
     .online-game-container .title,
     .online-game-container .black-title {
         font-size: 1.5rem;
+    }
+    .card .text{
+        font-size: 0.7rem;
     }
 
     /* play instantly section */
@@ -599,6 +602,10 @@ a {
         width: 100%;
         flex-direction: column;
         gap: 0px;
+    }
+
+    .gamer-section {
+        margin-bottom: 30px;
     }
 
     .gamer .title {
