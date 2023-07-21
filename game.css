@@ -734,6 +734,7 @@ a {
     }
 
     .online-game-container {
+        width: 70%;
         margin-bottom: 40px;
     }
 
@@ -777,6 +778,18 @@ a {
         left: -60px;
         top: 140px;
     }
+
+    /*  */
+    .games-container{
+        grid-template-columns: repeat(3, auto);
+        gap: 15px;
+    }
+    .option .optn-descrip {
+        font-size: 0.5rem;
+        font-weight: 400;
+    
+    }
+
 
     /* footer section styles */
     .footer-container {
